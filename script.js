@@ -1,5 +1,5 @@
 // your code here
- document.getElementById("urlForm").addEventListener("submit", function(event) {
+ document.getElementById("urlForm").addEventListener("button", function(event) {
       event.preventDefault(); // Prevent form submission to stop page refresh
       updateURL();
     });
